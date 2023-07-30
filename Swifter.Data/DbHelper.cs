@@ -41,6 +41,7 @@ namespace Swifter.Data
         {
             return GetFactory(providerName).CreateConnection();
         }
+        //
 
         /// <summary>
         /// 获取数据库工厂实例。
